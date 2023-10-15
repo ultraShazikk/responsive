@@ -1,0 +1,123 @@
+.info .container {
+    max-width: 1280px;
+    width: 100%;
+    margin-top: 136px;
+    padding: 0;
+}
+
+.info__bacround {
+    background-image: url("../../img/Group13.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1111px;
+    width: 100%;
+    height: 196px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.info__list {
+    max-width: 1111px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -203px;
+    padding: 0;
+    gap: 30px;
+}
+
+.info__item {
+    max-width: 255px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.info__img {
+    max-width: 255px;
+    width: 100%;
+    height: 193px;
+    margin: 0;
+    margin-bottom: 72px;
+    padding: 0;
+}
+
+.info__heading {
+    color: #333D4B;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.info__text {
+    color: #333D4B;
+    text-align: center;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+@media only screen and (max-width: 821px) {
+    .info__list {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -245px;
+    }
+
+    .info__item {
+        max-width: 573px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .info__heading {
+        text-align: start;
+        padding-top: 33px;
+    }
+
+    .info__text {
+        max-width: 282px;
+        width: 100%;
+        text-align: start;
+        
+    }
+}
+
+@media only screen and (max-width: 688px) {
+   .info__list {
+    margin-top: -265px;
+   } 
+}
+
+@media only screen and (max-width: 555px) {
+
+    .info__item {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .info__img {
+        margin-bottom: 24px;
+    }
+
+    .info__heading {
+        text-align: center;
+    }
+
+    .info__text {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+}

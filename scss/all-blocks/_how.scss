@@ -1,0 +1,242 @@
+.how .container {
+    max-width: 1045px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 0;
+}
+
+.how__heading {
+    color: #83888F;
+    font-family: "Fraunces";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+}
+
+.how__auto {
+    margin: 0 auto;
+}
+
+.how__box {
+    max-width: 790px;
+    width: 100%;
+    height: 1px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FDD6BA;
+    margin: 0;
+    padding: 0;
+}
+
+.how__line {
+    max-width: 31px;
+    width: 100%;
+    height: 31px;
+    background-color: #FFF;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+    display: block;
+    margin: 0;
+    margin-top: -16px;
+    padding: 0;
+}
+
+.how__list {
+    max-width: 1045px;
+    width: 100%;
+    display: flex;
+    gap: 95px;
+    margin: 0 auto;
+    margin-top: 67px;
+    padding: 0;
+}
+
+.how__item {
+    max-width: 285px;
+    width: 100%;
+}
+
+.how__text {
+    color: #FDD6BA;
+    font-family: "Fraunces";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+    margin: 0;
+    padding: 0;
+}
+
+.how__heading--5 {
+    max-width: 255px;
+    width: 100%;
+    color: #333D4B;
+    font-family: "Fraunces";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 38px;
+    margin-bottom: 42px;
+    padding: 0;
+}
+
+.how__text--p {
+    color: #333D4B;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 64px;
+}
+
+.how__link {
+    border-radius: 6px;
+    background: #0E8784;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    margin: 0;
+    padding: 15px 31px;
+
+    &:hover {
+        background-color: #66D2CF;
+    }
+}
+
+.how__linkk {
+    display: none;
+    border-radius: 6px;
+    background: #0E8784;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: "Fraunces";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    margin: 0;
+    padding: 15px 31px;
+
+    &:hover {
+        background-color: #66D2CF;
+    }
+}
+
+@media only screen and (max-width: 655px) {
+
+    .how__box {
+        max-width: 467px;
+        width: 100%;
+        margin: 0 auto; 
+    }
+
+    .how__list {
+        gap: 10px;
+    }
+
+    .how__item {
+        max-width: 223px;
+        width: 100%;
+    }
+
+    .how__heading--5 {
+        max-width: 327px;
+        width: 100%;
+        color: #333D4B;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    .how__heading {
+        color: #83888F;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    .how__text--p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .how__link {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 745px) {
+
+    .how__list {
+        max-width: 327px;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .how__item {
+        max-width: 327px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .how__heading--5 {
+        max-width: 327px;
+        width: 100%;
+        color: #333D4B;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    .how__heading {
+        color: #83888F;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 32px;
+    }
+
+    .how__link {
+        display: none;
+    }
+
+    .how__linkk {
+        max-width: 217px;
+        width: 100%;
+        display: block;
+        color: #FEFCF7;
+        text-align: center;
+        font-family: "Fraunces";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 25px;
+        border-radius: 6px;
+        background: #0E8784;
+        margin: 0 auto;
+        padding: 15px 31px;
+    }
+}
